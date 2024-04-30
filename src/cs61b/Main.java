@@ -12,20 +12,14 @@ public class Main {
 		
 		List<Integer> l = new ArrayList<>();
 		l.add(1);	
-		l.add(null);
-		l.add(null);
+		l.add(null);		
 		
 		Map<String, String> m = new HashMap<>();
-		m.put("a", "abc");
-		m.put("a", "bbb");
-		
-		
+		m.put("a", "abc");	
 		
 		Set<String> s = new HashSet<>();
 		s.add("abc");	
 		s.add(null);
-		s.add(null);
-		s.add("abc");
 		
 		System.out.println("Hello");
 	}
